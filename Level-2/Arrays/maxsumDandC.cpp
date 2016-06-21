@@ -7,7 +7,6 @@ int Solution::maxSubArray(const vector<int> &A) {
   return recurseAns(A, 0, A.size() -1);
 }
 
-/*
 int midMax(vector <int>A, int start, int mid, int end){
     int ans=INT_MIN;
     int cumulativeSum = 0;
@@ -38,4 +37,4 @@ int recurseAns(vector<int> A, int start, int end){
         
     return max ( max ( recurseAns(A, start, mid), 
     recurseAns(A,mid+1, end) ), midMax(A, start, mid, end) );
-}*/
+}

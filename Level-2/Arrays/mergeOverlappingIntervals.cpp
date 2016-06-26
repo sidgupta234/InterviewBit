@@ -35,8 +35,9 @@
             x.start = A[i+1].start;
             x.end   = A[i+1].end;
             ans.push_back(x);
-		}
 	}
+    	
+    }
 	    
     return ans;
 }

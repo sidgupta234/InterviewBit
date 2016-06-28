@@ -5,7 +5,7 @@ int Solution::sqrt(int A) {
     long long int low = 1, high = A-1;
     
     while(low<high){
-        long long int mid = low + (high - low+1)/2;
+        long long int mid = (low + high+1)/2; // +1 because otherwise mid and low may end up equal, resulting in an infinite loop.
         
         if( (mid*mid) <= (long long int) A ){
             low = mid;

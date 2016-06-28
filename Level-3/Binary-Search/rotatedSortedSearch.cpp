@@ -18,7 +18,6 @@ int Solution::search(const vector<int> &A, int B) {
             low = mid+1;
         }
         
-    
         else {
             high =mid;
         }
@@ -52,7 +51,6 @@ int Solution::search(const vector<int> &A, int B) {
         
         low = high;
         high = A.size()-1;
-        
         
         while(low<=high){
            int  mid = (low+high)/2;

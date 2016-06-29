@@ -6,7 +6,6 @@ int Solution::uniquePaths(int A, int B) {
     
     for(int i=1;i<x;i++){
         ans = (ans *( A+B-2 - i +1))/i;
-        
     }
     return ans;
 }

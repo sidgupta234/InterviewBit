@@ -1,5 +1,7 @@
 // https://www.interviewbit.com/problems/power-of-two-integers/
-// solution may lie to the right or left of the squareRoot.
+// if there is only one unique factor, that would be prime. i.ie the number is of the form prime^n
+// if the factor is composite then we must check for the largest composite prime, hence traversal in other direction.
+// example 15*15*15 = 3375, sqrt(3375) = 58. 
 bool Solution::isPower(int A) {
     
     int num = A;

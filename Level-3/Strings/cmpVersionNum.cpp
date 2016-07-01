@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/compare-version-numbers/?ref=similar_problems
+// https://www.interviewbit.com/problems/compare-version-numbers/
 
 int Solution::compareVersion(string A, string B) {
     int i = 0, j = 0;

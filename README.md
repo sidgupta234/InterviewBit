@@ -8,7 +8,7 @@ Popular Software Engineering interview questions posed on [interviewbit](https:/
 Given a list of non negative integers, arrange them such that they form the largest number.
 
 For example:
-Given [3, 30, 34, 5, 9], the largest formed number is 9534330.
+Given **[3, 30, 34, 5, 9]**, the largest formed number is ***9534330***.
 Note: The result may be very large, so you need to return a string instead of an integer.
 
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/LargestNumber.cpp)
@@ -18,11 +18,11 @@ Note: The result may be very large, so you need to return a string instead of an
 Given a non-negative number represented as an array of digits,
 add 1 to the number ( increment the number represented by the digits ).
 The digits are stored such that the most significant digit is at the head of the list.
-Example:
-If the vector has [1, 2, 3]
-the returned vector should be [1, 2, 4]
+**Example:**
+If the vector has **[1, 2, 3]** the returned vector should be ***[1, 2, 4]***
 as 123 + 1 = 124.
-Note: The result may be very large, so you need to return a string instead of an integer.
+
+**Note**: The result may be very large, so you need to return a string instead of an integer.
 
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/addOne.cpp)
 <br>

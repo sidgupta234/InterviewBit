@@ -18,7 +18,7 @@ string Solution::fractionToDecimal(int numerator, int denominator) {
     num = abs(num);
     deno = abs(deno);
     
-    long long int gcdND = gcd(nums, deno);
+    long long int gcdND = gcd(num, deno);
     num = num/gcdND;
     deno = deno/gcdND;
     string ans = "";

@@ -1,4 +1,3 @@
-// https://www.interviewbit.com/problems/points-on-the-straight-line/
 int Solution::maxPoints(vector<int> &A, vector<int> &B) {
 
     if(A.size()<=2)
@@ -40,7 +39,7 @@ int Solution::maxPoints(vector<int> &A, vector<int> &B) {
             result=max(result,it->second+dup);
         }
         
-        result = max(result, dup+vert);
+        result = max(result, dup+vert); // as vert can be considered as another slope value.
 
     }
     return result;

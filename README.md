@@ -12,7 +12,8 @@ Given a list of non negative integers, arrange them such that they form the larg
 **Note:** The result may be very large, so you need to return a string instead of an integer.
 <br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/LargestNumber.cpp)
-<br><br>
+<br>
+<br>
 <br>
 ####[Add one to number](https://www.interviewbit.com/problems/add-one-to-number/)
 Given a non-negative number represented as an array of digits, add 1 to the number ( increment the number represented by the digits ). 
@@ -24,44 +25,42 @@ as 123 + 1 = 124.
 **Note**: The result may be very large, so you need to return a string instead of an integer.
 <br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/addOne.cpp)
-<br><br><br>
+<br>
+<br>
+<br>
 ####[Anti diagonals](https://www.interviewbit.com/problems/anti-diagonals/)
-Give a N*N square matrix, return an array of its anti-diagonals. Look at the example for more details.
-
+Given a NxN square matrix, return an array of its anti-diagonals. Look at the example for more details.
+<br><br>
 **Examples:**
 <br>
-For, **[1 2 3 4 5 6 7 8 9]** you should return, ***[ [1], [2, 4], [3, 5, 7], [6, 8], [9] ]***
+For, **[1, 2, 3, 4, 5, 6, 7, 8, 9]** you should return, ***[ [1], [2, 4], [3, 5, 7], [6, 8], [9] ]***
 <br>
-For, **[1 2 3 4]** you should return, ***[ [1], [2, 3], [4] ]***
-
+For, **[1, 2, 3, 4]** you should return, ***[ [1], [2, 3], [4] ]***
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/antiDiagonals.cpp)
+<br>
 <br>
 <br>
 ####[Find duplicate in array](https://www.interviewbit.com/problems/find-duplicate-in-array/)
 Given a read only array of n + 1 integers between 1 and n, find one number that repeats in linear time using less than O(n) space and traversing the stream sequentially O(1) times.
-
-Sample Input:
-[3 4 1 4 1]
-
-Sample Output:
-1
-
-If there are multiple possible answers ( like in the sample case above ), output any one.
-
+<br><br>
+**Example :** For **[3, 4, 1, 4, 1]**, you should return ***1***.
+<br><br>
+**Note**: If there are multiple possible answers ( like in the sample case above ), output any one.
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/findDuplicate.cpp)
+<br>
 <br>
 <br>
 ####[First missing integer](https://www.interviewbit.com/problems/first-missing-integer/)
 Given an unsorted integer array, find the first missing positive integer.
-
-Example:
-Given [1,2,0] return 3,
-[3,4,-1,1] return 2,
-[-8, -7, -6] returns 1
-
-Your algorithm should run in O(n) time and use constant space.
-
+<br><br>
+**Example:** For **[1,2,0]** return ***3***, **[3,4,-1,1]** return ***2***, **[-8, -7, -6]** returns ***1***
+<br><br>
+**Note**: Your algorithm should run in O(n) time and use constant space.
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/firstMissingNumb.cpp)
+<br>
 <br>
 <br>
 ####[Kth row of pascal's triangle](https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/)

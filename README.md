@@ -28,32 +28,11 @@ as 123 + 1 = 124.
 ####[Anti diagonals](https://www.interviewbit.com/problems/anti-diagonals/)
 Give a N*N square matrix, return an array of its anti-diagonals. Look at the example for more details.
 
-Example:
-Input: 	
-1 2 3
-4 5 6
-7 8 9
-
-Return the following :
-[ 
-  [1],
-  [2, 4],
-  [3, 5, 7],
-  [6, 8],
-  [9]
-]
-
-Input : 
-1 2
-3 4
-
-Return the following : 
-
-[
-  [1],
-  [2, 3],
-  [4]
-]
+**Examples:**
+<br>
+For, **[1 2 3 4 5 6 7 8 9]** you should return, ***[ [1], [2, 4], [3, 5, 7], [6, 8], [9] ]***
+<br>
+For, **[1 2 3 4]** you should return, ***[ [1], [2, 3], [4] ]***
 
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/antiDiagonals.cpp)
 <br>

@@ -44,7 +44,7 @@ For, **[1, 2, 3, 4]** you should return, ***[ [1], [2, 3], [4] ]***
 ####[Find duplicate in array](https://www.interviewbit.com/problems/find-duplicate-in-array/)
 Given a read only array of n + 1 integers between 1 and n, find one number that repeats in linear time using less than O(n) space and traversing the stream sequentially O(1) times.
 <br><br>
-**Example :** For **[3, 4, 1, 4, 1]**, you should return ***1***.
+**Example:** For **[3, 4, 1, 4, 1]**, you should return ***1***.
 <br><br>
 **Note**: If there are multiple possible answers ( like in the sample case above ), output any one.
 <br><br>
@@ -64,75 +64,55 @@ Given an unsorted integer array, find the first missing positive integer.
 <br>
 <br>
 ####[Kth row of pascal's triangle](https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/)
-Given an index k, return the kth row of the Pascal’s triangle.
-Pascal’s triangle : To generate A[C] in row R, sum up A’[C] and A’[C-1] from previous row R - 1.
-
-Example:
-Input : k = 3
-
-Return : [1,3,3,1]
-
-NOTE : k is 0 based. k = 0, corresponds to the row [1]. 
-Could you optimize your algorithm to use only O(k) extra space?
-
-
+<br><br>
+Given an index **k**, return the **kth** row of the Pascal’s triangle.
+<br><br>
+**Example:** For **k = 3**, return ***[1,3,3,1]***
+<br><br>
+ **Note:** k is 0 based. k = 0, corresponds to the row [1].  Could you optimize your algorithm to use only O(k) extra space?
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/kthRowOfPascal.cpp)
 <br>
 <br>
+<br>
 ####[Max non-negative subarray](https://www.interviewbit.com/problems/max-non-negative-subarray/)
+<br><br>
 Find out the maximum sub-array of non negative numbers from an array.
 The sub-array should be continuous. That is, a sub-array created by choosing the second and fourth element and skipping the third element is invalid.
-
+<br><br>
 Maximum sub-array is defined in terms of the sum of the elements in the sub-array. Sub-array A is greater than sub-array B if sum(A) > sum(B).
-
-Example:
-A : [1, 2, 5, -7, 2, 3]
-The two sub-arrays are [1, 2, 5] [2, 3].
-The answer is [1, 2, 5] as its sum is larger than [2, 3]
-
-NOTE: If there is a tie, then compare with segment's length and return segment which has maximum length
-NOTE 2: If there is still a tie, then return the segment with minimum starting index
-
+<br><br>
+**Example:** For **[1, 2, 5, -7, 2, 3]**, their are two sub-arrays that follow the constraint; **[1, 2, 5]** and **[2, 3]**. The answer is ***[1, 2, 5]*** as its sum is larger than [2, 3].
+<br><br>
+**Note:** If there is a tie, then compare with segment's length and return segment which has maximum length
+**Note 2:** If there is still a tie, then return the segment with minimum starting index
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/maxNonNegSubarray.cpp)
 <br>
 <br>
-####[Kth row of pascal's triangle](https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/)
-Given an index k, return the kth row of the Pascal’s triangle.
-Pascal’s triangle : To generate A[C] in row R, sum up A’[C] and A’[C-1] from previous row R - 1.
-
-Example:
-Input : k = 3
-
-Return : [1,3,3,1]
-
-NOTE : k is 0 based. k = 0, corresponds to the row [1]. 
-Could you optimize your algorithm to use only O(k) extra space?
-
-[Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/maxSumKadane.cpp)
-<br>
 <br>
 ####[Max sum contiguous subarray](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/)
+<br><br>
 Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
-
-For example:
-Given the array [-2,1,-3,4,-1,2,1,-5,4], the contiguous subarray [4,-1,2,1] has the largest sum = 6.
-
+<br><br>
+**Example:** For **[-2,1,-3,4,-1,2,1,-5,4]**, the contiguous subarray **[4,-1,2,1]** has the largest sum, which is ***6***.
+<br><br>
 For this problem, return the maximum sum.
-
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/maxSumKadane.cpp)
+<br>
 <br>
 <br>
 ####[Merge overlapping intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/)
+<br><br>
 Given a collection of intervals, merge all overlapping intervals.
-
-For example:
-Given [1,3],[2,6],[8,10],[15,18],
-
-return [1,6],[8,10],[15,18].
-
-Make sure the returned intervals are sorted.
-
+<br><br>
+**Example:** Given **[1,3], [2,6], [8,10], [15,18]**, return ***[1,6] [8,10] [15,18]***.
+<br><br>
+**Note:** Make sure the returned intervals are sorted.
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/mergeOverlappingIntervals.cpp)
+<br>
 <br>
 <br>
 ####[Min steps in infinite grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)

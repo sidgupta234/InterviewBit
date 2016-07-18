@@ -81,8 +81,9 @@ Maximum sub-array is defined in terms of the sum of the elements in the sub-arra
 <br><br>
 **Example:** For **[1, 2, 5, -7, 2, 3]**, their are two sub-arrays that follow the constraint; **[1, 2, 5]** and **[2, 3]**. The answer is ***[1, 2, 5]*** as its sum is larger than [2, 3].
 <br><br>
-**Note:** If there is a tie, then compare with segment's length and return segment which has maximum length
-**Note 2:** If there is still a tie, then return the segment with minimum starting index
+**Note:** If there is a tie, then compare with segment's length and return segment which has maximum length.
+<br>
+**Note 2:** If there is still a tie, then return the segment with minimum starting index.
 <br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/maxNonNegSubarray.cpp)
 <br>
@@ -112,103 +113,68 @@ Given a collection of intervals, merge all overlapping intervals.
 <br>
 ####[Min steps in infinite grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)
 You are in an infinite 2D grid where you can move in any of the 8 directions :
-
- (x,y) to 
-    (x+1, y), 
-    (x - 1, y), 
-    (x, y+1), 
-    (x, y-1), 
-    (x-1, y-1), 
-    (x+1,y+1), 
-    (x-1,y+1), 
-    (x+1,y-1) 
-
+<br>
+ (x,y) to <br>
+    (x+1, y), <br>
+    (x - 1, y), <br>
+    (x, y+1), <br>
+    (x, y-1), <br>
+    (x-1, y-1), <br>
+    (x+1,y+1), <br>
+    (x-1,y+1), <br>
+    (x+1,y-1) <br><br>
 You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
-
-Example :
-Input : [(0, 0), (1, 1), (1, 2)]
-Output : 2
-
+<br><br>
+**Example:** For **[(0, 0), (1, 1), (1, 2)]**, return ***2***.
+<br>
 It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
-
-This question is intentionally left slightly vague. Clarify the question by trying out a few cases in the “See Expected Output” section.
-
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/minSteps.cpp)
+<br>
 <br>
 <br>
 ####[Pascal triangle rows](https://www.interviewbit.com/problems/pascal-triangle-rows/)
 Given numRows, generate the first numRows of Pascal’s triangle.
-
-Pascal’s triangle : To generate A[C] in row R, sum up A’[C] and A’[C-1] from previous row R - 1.
-
-Example:
-Given numRows = 5,
-
-Return
-
-[
-     [1],
-     [1,1],
-     [1,2,1],
-     [1,3,3,1],
-     [1,4,6,4,1]
-]
-
+<br><br>
+**Example:** For numRows = **5**, Return ***[ [1], [1,1], [1,2,1], [1,3,3,1], [1,4,6,4,1] ]***
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/pascalTriangleRow.cpp)
+<br>
 <br>
 <br>
 ####[Repeat and missing number array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/)
 You are given a read only array of n integers from 1 to n.
-Each integer appears exactly once except A which appears twice and B which is missing.
-Return A and B.
-
-Note: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
-Note that in your output A should precede B.
-
-Example:
-Input:[3 1 2 5 3] 
-Output:[3, 4] 
-A = 3, B = 4
-
+Each integer appears exactly once except A which appears twice and B which is missing. Return A and B.
+<br><br>
+**Note:** Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+<br>
+**Note 2:** that in your output A should precede B.
+<br><br>
+**Example:** For ***[3, 1, 2, 5, 3]*** return ***[3, 4]***
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/repeatAndMissingNum.cpp)
 <br>
 <br>
-
+<br>
 ####[Set matrix zeros](https://www.interviewbit.com/problems/set-matrix-zeros/)
-Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and column to 0.
-Do it in place.
-
-Example
-Given array A as
-
-1 0 1
-1 1 1 
-1 1 1
-On returning, the array A should be :
-
-0 0 0
-1 0 1
-1 0 1
-Note that this will be evaluated on the extra memory used. Try to minimize the space and time complexity.
-
+Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and column to 0. Do it in place.
+<br><br>
+**Example:** For a given array A as **[ [1, 0 ,1], [1, 1, 1], [1, 1, 1,] ]**, on returning, the array A should be ***[ [0, 0 ,0], [1, 0, 1], [1, 0, 1] ]***
+<br><br>
+**Note:** Try to minimize the space and time complexity.
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/setMatrixZeroConstSpace.cpp)
 <br>
-
+<br>
 <br>
 ####[Wave array](https://www.interviewbit.com/problems/wave-array/)
-Given an array of integers, sort the array into a wave like array and return it, 
-In other words, arrange the elements into a sequence such that a1 >= a2 <= a3 >= a4 <= a5.....
-
-Example
-
-Given [1, 2, 3, 4]
-
-One possible answer : [2, 1, 4, 3]
-Another possible answer : [4, 1, 3, 2]
-
-multiple answers are possible, return the one thats lexicographically smallest.
-
+Given an array of integers, sort the array into a wave like array and return it, In other words, arrange the elements into a sequence such that a1 >= a2 <= a3 >= a4 <= a5.....
+<br><br>
+**Example:** Given **[1, 2, 3, 4]**, possible answers could be ***[2, 1, 4, 3]*** or ***[4, 1, 3, 2]***. 
+<br><br>
+**Note:** Multiple answers are possible, return the one that is  lexicographically smallest.
+<br><br>
 [Solution](https://github.com/sidgupta234/InterviewBit/blob/master/Level-2/Arrays/waveArray.cpp)
 <br>
 <br>
-
+<br>

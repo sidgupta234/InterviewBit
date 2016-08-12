@@ -9,7 +9,7 @@
  * };
  */
 
-void inv(TreeNode* &root){
+void inv(TreeNode* root){
     if(root==NULL)
         return;
     

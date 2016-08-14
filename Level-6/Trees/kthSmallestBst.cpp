@@ -30,3 +30,17 @@ int Solution::kthsmallest(TreeNode* root, int k) {
     return kthsmallest(root->right, k - leftSize - 1);
     
 }
+/*
+Using inOrder Traversal
+int findKthNode(Node * root, int *n, int K){
+    if(!root) return -1;
+ 
+    findKthNode(root->left, n, K);
+    (*n)++;
+    if(K == *n){
+        return root->value;
+    }
+    findKthNode(root->right, n, K);
+}
+
+*/

@@ -19,7 +19,7 @@
         swap(A->left, A->right);
     }
     
-    else if(A->left!=NULL & A->right != NULL){
+    else if(A->left!=NULL && A->right != NULL){
         swap(A->left, A->right);
         TreeNode *temp = A->right;
         

@@ -26,11 +26,11 @@
         while(temp->right!=NULL){
             temp= temp->right;
         }
+        
         temp->right = A->left;
         A->left = NULL;
     }
     
-    flat(A->left);
     flat(A->right);
     
 }

@@ -9,25 +9,18 @@ int ans(const vector<int> &A) {
         M[A[i]]=1;
     }
     
-    int ans=0;
-    int curConsecutiveness = 0;
-    int prev=0;
+    int ans=0, curConsecutiveness = 0, prev=0;
     
     for(it = M.begin(); it != M.end(); it++){
-        if(it == M.begin()){
+        if(it == M.begin() || prev != it->first-1 ){
             curConsecutiveness=1;
-            ans = max(curConsecutiveness, ans);
         }
         
-        else if(prev==(it->first-1) ){
+        else if(prev== it->first-1 ){
             curConsecutiveness++;
-            ans = max(curConsecutiveness, ans);
         }
         
-        else{
-            curConsecutiveness=1;
-        }
-        
+        ans = max(curConsecutiveness, ans);
         prev=it->first;
     }
     

@@ -13,12 +13,12 @@ int Solution::canCompleteCircuit(const vector<int> &gas, const vector<int> &cost
             net = 0;
         }
         
-        total += gas[i]-cost[i];
+        total += gas[i]-cost[i]; // As total>=0 would imply that the circuit can be completed!
     }
     
     if(total>=0)
         return ansind;
-                
+     
     return -1;
     
     return ansind;

@@ -4,7 +4,7 @@ Popular Software Engineering interview questions posed on [interviewbit](https:/
 ## Level-2
 
 ### Arrays
-####[Largest number](https://www.interviewbit.com/problems/largest-number/)
+#### [Largest number](https://www.interviewbit.com/problems/largest-number/)
 Given a list of non negative integers, arrange them such that they form the largest number.
 <br><br>
 **Example:** Given **[3, 30, 34, 5, 9]**, the largest formed number is ***9534330***.
@@ -15,7 +15,7 @@ Given a list of non negative integers, arrange them such that they form the larg
 <br>
 <br>
 <br>
-####[Add one to number](https://www.interviewbit.com/problems/add-one-to-number/)
+#### [Add one to number](https://www.interviewbit.com/problems/add-one-to-number/)
 Given a non-negative number represented as an array of digits, add 1 to the number ( increment the number represented by the digits ). 
 The digits are stored such that the most significant digit is at the head of the list.
 <br><br>
@@ -28,7 +28,7 @@ as 123 + 1 = 124.
 <br>
 <br>
 <br>
-####[Anti diagonals](https://www.interviewbit.com/problems/anti-diagonals/)
+#### [Anti diagonals](https://www.interviewbit.com/problems/anti-diagonals/)
 Given a NxN square matrix, return an array of its anti-diagonals. Look at the example for more details.
 <br><br>
 **Examples:**
@@ -41,7 +41,7 @@ For, **[1, 2, 3, 4]** you should return, ***[ [1], [2, 3], [4] ]***
 <br>
 <br>
 <br>
-####[Find duplicate in array](https://www.interviewbit.com/problems/find-duplicate-in-array/)
+#### [Find duplicate in array](https://www.interviewbit.com/problems/find-duplicate-in-array/)
 Given a read only array of n + 1 integers between 1 and n, find one number that repeats in linear time using less than O(n) space and traversing the stream sequentially O(1) times.
 <br><br>
 **Example:** For **[3, 4, 1, 4, 1]**, you should return ***1***.
@@ -52,7 +52,7 @@ Given a read only array of n + 1 integers between 1 and n, find one number that 
 <br>
 <br>
 <br>
-####[First missing integer](https://www.interviewbit.com/problems/first-missing-integer/)
+#### [First missing integer](https://www.interviewbit.com/problems/first-missing-integer/)
 Given an unsorted integer array, find the first missing positive integer.
 <br><br>
 **Example:** For **[1,2,0]** return ***3***, **[3,4,-1,1]** return ***2***, **[-8, -7, -6]** returns ***1***
@@ -63,7 +63,7 @@ Given an unsorted integer array, find the first missing positive integer.
 <br>
 <br>
 <br>
-####[Kth row of pascal's triangle](https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/)
+#### [Kth row of pascal's triangle](https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/)
 Given an index **k**, return the **kth** row of the Pascal’s triangle.
 <br><br>
 **Example:** For **k = 3**, return ***[1,3,3,1]***
@@ -74,7 +74,7 @@ Given an index **k**, return the **kth** row of the Pascal’s triangle.
 <br>
 <br>
 <br>
-####[Max non-negative subarray](https://www.interviewbit.com/problems/max-non-negative-subarray/)
+#### [Max non-negative subarray](https://www.interviewbit.com/problems/max-non-negative-subarray/)
 Find out the maximum sub-array of non negative numbers from an array. The sub-array should be continuous. That is, a sub-array created by choosing the second and fourth element and skipping the third element is invalid.
 <br><br>
 Maximum sub-array is defined in terms of the sum of the elements in the sub-array. Sub-array A is greater than sub-array B if sum(A) > sum(B).
@@ -89,7 +89,7 @@ Maximum sub-array is defined in terms of the sum of the elements in the sub-arra
 <br>
 <br>
 <br>
-####[Max sum contiguous subarray](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/)
+#### [Max sum contiguous subarray](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/)
 Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
 <br><br>
 **Example:** For **[-2,1,-3,4,-1,2,1,-5,4]**, the contiguous subarray **[4,-1,2,1]** has the largest sum, which is ***6***.
@@ -100,7 +100,7 @@ For this problem, return the maximum sum.
 <br>
 <br>
 <br>
-####[Merge overlapping intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/)
+#### [Merge overlapping intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/)
 Given a collection of intervals, merge all overlapping intervals.
 <br><br>
 **Example:** Given **[1,3], [2,6], [8,10], [15,18]**, return ***[1,6] [8,10] [15,18]***.
@@ -111,7 +111,7 @@ Given a collection of intervals, merge all overlapping intervals.
 <br>
 <br>
 <br>
-####[Min steps in infinite grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)
+#### [Min steps in infinite grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)
 You are in an infinite 2D grid where you can move in any of the 8 directions :
 <br>
  (x,y) to <br>
@@ -133,7 +133,7 @@ It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move fr
 <br>
 <br>
 <br>
-####[Pascal triangle rows](https://www.interviewbit.com/problems/pascal-triangle-rows/)
+#### [Pascal triangle rows](https://www.interviewbit.com/problems/pascal-triangle-rows/)
 Given numRows, generate the first numRows of Pascal’s triangle.
 <br><br>
 **Example:** For numRows = **5**, Return ***[ [1], [1,1], [1,2,1], [1,3,3,1], [1,4,6,4,1] ]***
@@ -142,7 +142,7 @@ Given numRows, generate the first numRows of Pascal’s triangle.
 <br>
 <br>
 <br>
-####[Repeat and missing number array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/)
+#### [Repeat and missing number array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/)
 You are given a read only array of n integers from 1 to n.
 Each integer appears exactly once except A which appears twice and B which is missing. Return A and B.
 <br><br>
@@ -156,7 +156,7 @@ Each integer appears exactly once except A which appears twice and B which is mi
 <br>
 <br>
 <br>
-####[Set matrix zeros](https://www.interviewbit.com/problems/set-matrix-zeros/)
+#### [Set matrix zeros](https://www.interviewbit.com/problems/set-matrix-zeros/)
 Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and column to 0. Do it in place.
 <br><br>
 **Example:** For a given array A as **[ [1, 0 ,1], [1, 1, 1], [1, 1, 1,] ]**, on returning, the array A should be ***[ [0, 0 ,0], [1, 0, 1], [1, 0, 1] ]***
@@ -167,7 +167,7 @@ Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and c
 <br>
 <br>
 <br>
-####[Wave array](https://www.interviewbit.com/problems/wave-array/)
+#### [Wave array](https://www.interviewbit.com/problems/wave-array/)
 Given an array of integers, sort the array into a wave like array and return it, In other words, arrange the elements into a sequence such that a1 >= a2 <= a3 >= a4 <= a5.....
 <br><br>
 **Example:** Given **[1, 2, 3, 4]**, possible answers could be ***[2, 1, 4, 3]*** or ***[4, 1, 3, 2]***. 
